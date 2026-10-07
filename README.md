@@ -27,4 +27,6 @@ Run from the repository root with `PYTHONPATH=code`. All scripts except `us_nati
 ## Notes
 
 - The 2026 pre-registration scripts (`us_expected_splitticket_2026.py`, `us_reference_2024.py`, `us_reference_2026.py`, `us_splitticket_history.py`) are in the pre-registration repository, not here.
-- Licence: to be added (the pre-registration repository uses CC BY 4.0).
+## Licence
+
+The code, text and outputs written by the author are released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), the same licence as the pre-registration repository; the full legal text is in `LICENSE`. The licence does **not** cover third-party data (JHK Forecasts, FiveThirtyEight, Rieke), which are not part of this repository and keep their own terms.
