@@ -1,6 +1,6 @@
 # Replication code: probabilistic US election forecasts (2016–2024)
 
-Code behind the analyses of the paper *What do α and β add to the Brier score of probabilistic election forecasts? Evidence from 33 US forecasters (2016–2024) and a prospective test for 2026*, and its supplement. The 2026 prospective evaluation is pre-registered separately (https://github.com/rcprati/us-preregistration).
+Code behind the analyses of the paper *Which side do election forecasts err on? Testing calibration when contests are not independent*, and its supplement. The 2026 prospective evaluation is pre-registered separately (https://github.com/rcprati/us-preregistration).
 
 **Data are not included.** All inputs are third-party data without a stated licence, used locally for research; see `data/README.md` for sources and the expected layout under `data/`. Outputs are written to `outputs_local/` (git-ignored).
 
