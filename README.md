@@ -21,6 +21,8 @@ Run from the repository root with `PYTHONPATH=code`. All scripts except `us_nati
 | `us_alpha_beta_cal_evolution.py` | within-cycle evolution of (α−β)_cal; Figure 3 | S9 | 53 |
 | `us_national_shock.py` | latent national shock δ | main text 5.5 | 54 |
 | `us_national_shock_bootstrap.py` | bootstrap over cycles of the RMSE differences (run `us_national_shock.py` first) | main text 5.5 | 55 |
+| `us_polls_538_2024.py` | state-level 2024 poll table from FiveThirtyEight's polls | main text 5.5 | — |
+| `us_poll_error.py` | average state-poll error by cycle in the presidential races (run `us_polls_538_2024.py` first) | main text 5.5 | — |
 | `us_figure_national_shock.py` | Figure 2 (run `us_national_shock.py` first) | main text | 54 |
 
 `us_null_model.py` is the shared module of the null-model scripts. Each script was checked against the original (Portuguese) version used for the paper, comparing printed numbers and output tables; the figure scripts also reproduce the original figures byte for byte. The raw-file extraction step of `us_house_538_versions.py` (`--extract`) could not be re-run because the raw FiveThirtyEight files were deleted after extraction; the analysis step uses the saved extract.
