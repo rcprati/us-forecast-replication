@@ -10,6 +10,7 @@ Run from the repository root with `PYTHONPATH=code`. All scripts except `us_nati
 
 | Script | Content | Supplement | Seed |
 |---|---|---|---|
+| `us_validate_jhk.py` | validation of the JHK database against FiveThirtyEight (House 2018), The Economist (2020 president) and Split Ticket (2024) | S1 | — |
 | `us_jhk_alpha_beta.py` | α, β, Brier by forecaster, cycle and office | S1, S2 | — |
 | `us_null_correlated.py` | correlated-error calibration null; writes `us_null_rho.csv` | S3 | 45 |
 | `us_null_loco.py` | leave-one-cycle-out version | S3 | 46 |
